@@ -13,8 +13,8 @@
 const byte squareWavePin = 9;
 
 unsigned long dwellTime = ( PWM25 * 1000000UL ) / ( PWM_FREQ * 256UL  );
-//unsigned long dwellDelay = dwellTime / 2UL;
-unsigned long dwellDelay = 3000UL;
+unsigned long dwellDelay = dwellTime / 2UL;
+//unsigned long dwellDelay = 3000UL;
 const byte ecu1Pin  =  2;
 const byte ecu2Pin  =  3;
 const byte coil1Pin = 12;
